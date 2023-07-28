@@ -96,12 +96,12 @@ In addition to the basic HTML global attributes, the following global attributes
 - [`popover`](/en-US/docs/Web/HTML/Global_attributes/popover)
   - : Used to designate an element as a popover element (see {{domxref("Popover API", "Popover API", "", "nocode")}}). Popover elements are hidden via `display: none` until opened via an invoking/control element (i.e. a `<button>` or `<input type="button">` with a [`popovertarget`](/en-US/docs/Web/HTML/Element/button#popovertarget) attribute) or a {{domxref("HTMLElement.showPopover()")}} call.
 - [`role`](/en-US/docs/Web/Accessibility/ARIA/Roles)
-  - : Roles define the semantic meaning of content, allowing screen readers and other tools to present and support interaction with an object in a way that is consistent with user expectations of that type of object. `roles` are added to HTML elements using `role="role_type"`, where `role_type` is the name of a role in the ARIA specification.
+  - : Roles define the semantic meaning of content, allowing screen readers and other tools to present and support interaction with an object in a way that is consistent with user expectations of that type of object. `role`s are added to HTML elements using `role="role_type"`, where `role_type` is the name of a role in the ARIA specification.
 - [`slot`](/en-US/docs/Web/HTML/Global_attributes/slot)
   - : Assigns a slot in a [shadow DOM](/en-US/docs/Web/API/Web_components/Using_shadow_DOM) shadow tree to an element: An element with a `slot` attribute is assigned to the slot created by the {{HTMLElement("slot")}} element whose [`name`](/en-US/docs/Web/HTML/Element/slot#name) attribute's value matches that `slot` attribute's value.
 - [`spellcheck`](/en-US/docs/Web/HTML/Global_attributes/spellcheck)
 
-  - : An enumerated attribute defines whether the element may be checked for spelling errors. It may have the following values:
+  - : An enumerated attribute that defines whether the element may be checked for spelling errors. It may have the following values:
 
     - empty string or `true`, which indicates that the element should be, if possible, checked for spelling errors;
     - `false`, which indicates that the element should not be checked for spelling errors.
